@@ -2,3 +2,4 @@
 
 yarn compile
 yarn deploy
+yarn deploy --network
