@@ -1,0 +1,727 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jstewart/Documents/jason/interview/contracts/SharedWallet.sol": {
+      "lastModificationDate": 1640246737986,
+      "contentHash": "c7c0e5603e30a96940b7b8db57263027",
+      "sourceName": "contracts/SharedWallet.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SharedWallet"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/ERC20.sol": {
+      "lastModificationDate": 1644312489423,
+      "contentHash": "8e5d93f83f34769f9ad4b1ba8fb8e9a7",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Counters",
+        "DominiumERC20Token",
+        "ERC20",
+        "ERC20Permit",
+        "EnumerableSet",
+        "IERC20",
+        "IERC2612Permit",
+        "IOwnable",
+        "Ownable",
+        "SafeMath",
+        "VaultOwned"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/NFTStake.sol": {
+      "lastModificationDate": 1644308187101,
+      "contentHash": "c40a4d2b833f46c8fe7e32611ae4ba04",
+      "sourceName": "contracts/NFTStake.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Address",
+        "DOMERC721",
+        "DominiumNFTDepository",
+        "ERC721",
+        "IERC20",
+        "IERC721Receiver",
+        "IOHMERC20",
+        "IOwnable",
+        "ITreasury",
+        "Ownable",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympusBondingCalculator.sol": {
+      "lastModificationDate": 1644308187111,
+      "contentHash": "d8678672ef444492d06c7c5ce7f0ff34",
+      "sourceName": "contracts/OlympusBondingCalculator.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Babylonian",
+        "BitMath",
+        "DominiumBondingCalculator",
+        "FixedPoint",
+        "FullMath",
+        "IBondingCalculator",
+        "IERC20",
+        "IUniswapV2ERC20",
+        "IUniswapV2Pair",
+        "SafeMath"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympusCirculatingSupply.sol": {
+      "lastModificationDate": 1644308187122,
+      "contentHash": "8490572a5117a84589384605d34de612",
+      "sourceName": "contracts/OlympusCirculatingSupply.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "DOMCirculatingSupplyContract",
+        "IERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympusDAO.sol": {
+      "lastModificationDate": 1644308187130,
+      "contentHash": "8745998eb264e3cad505b6cc0c23a50b",
+      "sourceName": "contracts/OlympusDAO.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Address",
+        "DominiumDAO",
+        "IERC20",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympusDistributor.sol": {
+      "lastModificationDate": 1644308187138,
+      "contentHash": "01079473ba3b7b8e17982a13ea1b9ab7",
+      "sourceName": "contracts/OlympusDistributor.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Address",
+        "Distributor",
+        "IERC20",
+        "IPolicy",
+        "ITreasury",
+        "Policy",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympusStaking.sol": {
+      "lastModificationDate": 1644308187146,
+      "contentHash": "917b651955f5948d06e7fae2883ce5e2",
+      "sourceName": "contracts/OlympusStaking.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Address",
+        "DominiumStaking",
+        "IDistributor",
+        "IERC20",
+        "IOwnable",
+        "IWarmup",
+        "IsOHM",
+        "Ownable",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympusStakingWarmup.sol": {
+      "lastModificationDate": 1644308187155,
+      "contentHash": "ed77ac8d1655dad911ef0efc8b9124a0",
+      "sourceName": "contracts/OlympusStakingWarmup.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "IERC20",
+        "StakingWarmup"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympuStakingHelper.sol": {
+      "lastModificationDate": 1644308187168,
+      "contentHash": "a566937678e4a3b684702bd538164324",
+      "sourceName": "contracts/OlympuStakingHelper.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "IERC20",
+        "IStaking",
+        "StakingHelper"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/OlympusTreasury.sol": {
+      "lastModificationDate": 1644308187176,
+      "contentHash": "a9919ce1f34d84792e5fba09056dac89",
+      "sourceName": "contracts/OlympusTreasury.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Address",
+        "DominiumTreasury",
+        "IBondCalculator",
+        "IERC20",
+        "IERC20Mintable",
+        "IOHMERC20",
+        "IOwnable",
+        "Ownable",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/sERC20.sol": {
+      "lastModificationDate": 1644308187217,
+      "contentHash": "5ed0e5d4672850233505387cccd6047b",
+      "sourceName": "contracts/sERC20.sol",
+      "solcConfig": {
+        "version": "0.7.5",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.5"
+      ],
+      "artifacts": [
+        "Address",
+        "Counters",
+        "ERC20",
+        "ERC20Permit",
+        "IERC20",
+        "IERC2612Permit",
+        "IOwnable",
+        "Ownable",
+        "SafeMath",
+        "sDominium"
+      ]
+    },
+    "/Users/jstewart/Documents/dominiumdao/hardhat-setup/contracts/DomPresaleNFT.sol": {
+      "lastModificationDate": 1644312445587,
+      "contentHash": "fb735a3e55c7343cbf1c4d1416734c1a",
+      "sourceName": "contracts/DomPresaleNFT.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "DominiumNftPresale",
+        "ERC165",
+        "ERC20",
+        "ERC721",
+        "ERC721Enumerable",
+        "IERC165",
+        "IERC20",
+        "IERC20Metadata",
+        "IERC721",
+        "IERC721Enumerable",
+        "IERC721Metadata",
+        "IERC721Receiver",
+        "Ownable",
+        "SafeERC20",
+        "Strings"
+      ]
+    },
+    "/Users/jstewart/Documents/hardhat-quick-start/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1644965918170,
+      "contentHash": "f48de0eaae9544072b8766e2eac528a7",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/jstewart/Documents/hardhat-quick-start/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1644965918168,
+      "contentHash": "302d9755e46bc69d7058b0cbe7185e37",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/jstewart/Documents/hardhat-quick-start/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1644965918182,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/jstewart/Documents/hardhat-quick-start/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1644965918379,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/jstewart/Documents/hardhat-quick-start/contracts/ERC20.sol": {
+      "lastModificationDate": 1644966284956,
+      "contentHash": "b421f6a4f4303b59a61841542cec0c87",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GLDToken"
+      ]
+    }
+  }
+}
